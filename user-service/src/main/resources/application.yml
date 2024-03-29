@@ -1,0 +1,16 @@
+#dubbo:
+#  application:
+#    name: user-service
+#  protocol:
+#    name: dubbo
+#    port: -1
+#  registry:
+#    address: zookeeper://192.168.0.110:2181
+
+server:
+  port: 9999
+
+spring:
+  application:
+    name: user-service
+
